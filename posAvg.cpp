@@ -29,7 +29,7 @@ int main()
         }
     }while(userNum != 0);
     cout << "The average for { ";
-        whatsInside(listOfNums);
+        whatsInside(&listOfNums);
     cout << "} is " << computeAverage(listOfNums) << endl;
     return 0;
 }
